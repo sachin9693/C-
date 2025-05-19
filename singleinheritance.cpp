@@ -1,0 +1,27 @@
+#include<iostream>
+
+using namespace std;
+
+class person{
+    public:
+    person(){
+        cout<<"PERSON DETAILS : "<<endl;
+
+    }
+};
+
+class child : public person{
+
+    public:
+
+    child(){
+        cout<<"child Details : "<<endl;
+    }
+};
+int main(){
+
+    child obj;
+
+    return 0;
+
+}
